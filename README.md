@@ -6,3 +6,4 @@
 ### [3- Two Sum](https://github.com/Madkour17/problem-solving/blob/main/two-sum.js)
 ### [4- Reverse String](https://github.com/Madkour17/problem-solving/blob/main/reverse-string.js)
 ### [5- Factorial](https://github.com/Madkour17/problem-solving/blob/main/factorial.js)
+### [6- Longest Word](https://github.com/Madkour17/problem-solving/blob/main/longest-word.js)

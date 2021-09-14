@@ -1,5 +1,6 @@
 /**
  * @param {String} str Original String
+ * @returns {string} Reversed String
  **/
 var reverseStr = function (str) {
     let arr = []
@@ -8,5 +9,5 @@ var reverseStr = function (str) {
         arr.push(str[i])
         reversed = str[i] + reversed
     }
-    console.log(reversed);
+    return reversed
 };

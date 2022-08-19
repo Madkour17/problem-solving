@@ -21,3 +21,21 @@ function twoSumUsingHashTable(nums, target) {
   }
   return -1;
 }
+
+//3rd method using two pointers O(N Log N) Time
+function twoSumUsingTwoPointers(nums, target) {
+  const sortedNums = [...nums].sort();
+  let p1 = 0;
+  let p2 = sortedNums.length - 1;
+
+  for (let x = 0; x < sortedNums.length; x++) {
+    const current = sortedNums[p1] + sortedNums[p2];
+    if (current === target) {
+      return [nums.indexOf(sortedNums[p1]), nums.indexOf(sortedNums[p2])];
+    } else if (current > target) {
+      p2--;
+    } else {
+      p1++;
+    }
+  }
+}

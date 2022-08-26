@@ -15,3 +15,5 @@
 ### [7- Largest Nums](https://github.com/Madkour17/problem-solving/blob/main/largest-nums.js)
 
 ### [8- Validate Subsequence](https://github.com/Madkour17/problem-solving/blob/main/validate-subsequence.js)
+
+### [9- Tournament Winner](https://github.com/Madkour17/problem-solving/blob/main/tournament-winner.js)
